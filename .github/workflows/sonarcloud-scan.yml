@@ -3,7 +3,6 @@ on:
     push
 jobs:
     sonarcloud-scan:
-        needs: changes
         runs-on: MAC-L0197
         steps:
           - name: Checkout code
