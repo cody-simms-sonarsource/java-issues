@@ -1,8 +1,6 @@
 name: destroy-pr-environment
 on:
-  pull_request:
-    paths:
-      - '*'
+    push
 jobs:
     sonarcloud-scan:
         needs: changes
