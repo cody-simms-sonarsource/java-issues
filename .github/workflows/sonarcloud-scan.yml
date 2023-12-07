@@ -1,9 +1,9 @@
-name: destroy-pr-environment
+name: sonarcloud-scan-action
 on:
     push
 jobs:
     sonarcloud-scan:
-        runs-on: MAC-L0197
+        runs-on: self-hosted
         steps:
           - name: Checkout code
             uses: actions/checkout@v3
