@@ -5,10 +5,11 @@ plugins {
 
 sonar {
     properties {
-        property("sonar.organization", "cody-simms-sonarsource")
-        property("sonar.projectKey", "cody-simms-sonarsource_java-issues")
+        property("sonar.organization", "default-organization")
+        property("sonar.projectKey", "deafault-organization_java-issues")
         property("sonar.token", "86bb61c848e53dda08c619a0f6442f6d4b5ee7a8")
         property("sonar.sources", "./src")
+        property("sonar.host.url", "https://codysimms.ngrok.io")
     }
 }
 
