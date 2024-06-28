@@ -10,6 +10,9 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Some javadoc 
+ */
 public class Main {
   private static final Logger logger = Logger.getLogger("Logger");
 
