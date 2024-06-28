@@ -18,11 +18,7 @@ public class Main {
   }
 
   private void high() {
-    try {
-      Cipher des = Cipher.getInstance("DES");
-    } catch(NoSuchAlgorithmException | NoSuchPaddingException e) {
-      // ...
-    }
+    System.out.println("foobar");
   }
 
   private void medium(HttpServletRequest request, HttpServletResponse response) throws IOException {
