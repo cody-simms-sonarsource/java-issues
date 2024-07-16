@@ -17,6 +17,7 @@ public class Main {
 
   public static void main(String[] args) {
     logger.info("Hello world!");
+    Test.greet();
   }
 
   private void high() {
